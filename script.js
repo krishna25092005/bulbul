@@ -68,7 +68,7 @@ function handleYes() {
     document.getElementById("paragraph-box").innerText = questions[currentIndex].paragraph;
     setTimeout(() => {
         nextQuestion();
-    }, 5000); // Move to next question after 5 seconds
+    }, 10000); // Move to next question after 5 seconds
 }
 
 function handleNo() {
